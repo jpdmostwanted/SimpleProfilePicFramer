@@ -1,6 +1,6 @@
 # Avatar
 
-An avatar thing. Fork this repository and make your own avatar framer. Check out a demo over at https://bungferry.github.io/avatar/
+An avatar thing. Fork this repository and make your own avatar framer. Check out a demo over at https://bungferry.github.io/twibbonize/
 
 ## How
 
