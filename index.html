@@ -14,7 +14,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="css/main.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/lazy.css">
+
 
     <!-- Favicons -->
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -141,8 +141,9 @@
       <input type="file" id="input-file" accept="image/*">
       Select Photo
     </label>
-    <div class="lazierContainer">
-    <canvas class="lazierCanvas" id="preview" width="500" height="500" title="Preview"></canvas></div><br>
+    
+    <canvas id="preview" width="500" height="500" title="Preview"></canvas><br>
+
     <div class="buttons">
       <button type="button" class="frame-option">
         <img src="frame-01.png" alt="Frame option 1" width="100%">
@@ -171,7 +172,7 @@
   </div>
 </main>
 
-     <script src="js/img.js"></script>
+     
 
      <script type="text/javascript">
     const input = document.getElementById('input-file')
