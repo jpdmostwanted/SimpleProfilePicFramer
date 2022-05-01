@@ -14,7 +14,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="css/main.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="lazy.css">
+<link rel="stylesheet" type="text/css" href="css/lazy.css">
 
     <!-- Favicons -->
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -135,12 +135,13 @@
     <div class="container">
 
     <p class="lead">Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai.</p>
+    <div class="lazierContainer">
     <div class="wrapper">
     <label class="action">
       <input type="file" id="input-file" accept="image/*">
       Select Photo
     </label>
-    <canvas id="preview" width="500" height="500" title="Preview"></canvas><br>
+    <canvas class="lazierCanvas" id="preview" width="500" height="500" title="Preview"></canvas><br>
     <div class="buttons">
       <button type="button" class="frame-option">
         <img src="frame-01.png" alt="Frame option 1" width="100%">
@@ -158,6 +159,7 @@
     <a download="framed-avatar.png" class="action" id="download-link" href="">Download</a>
     <img src="img/person.png" alt="" width="1" id="placeholder" hidden>
   </div>
+  </div>
 
     </div>
     <footer class="pt-3 mt-4 text-muted border-top">
@@ -167,6 +169,8 @@
     </footer>
   </div>
 </main>
+
+     <script src="js/img.js"></script>
 
      <script type="text/javascript">
     const input = document.getElementById('input-file')
