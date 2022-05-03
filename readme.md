@@ -10,4 +10,4 @@ Itu saja!
 
 ## Todo
 
-- Preserve retangular shaped avatars' ratio
+- Pertahankan rasio avatar berbentuk persegi panjang.
