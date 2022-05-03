@@ -63,9 +63,10 @@
     <li>Upload script ini di cpanel.</li>
     <li>Ganti file frame-01.png untuk menggantikan twibbon.</li>
     <li>Untuk mengubah ikon, harap sesuaikan dengan file .ico Anda di HTML.</li>
-    <li></li>
+    <li>Selesai.</li>
     </ul>
     </ul>
+    <p class="lead">Tolong jangan hapus apapun selain icon dan twibbon untuk mendukung kami! Jangan jual skript ini!</p>
 
     </div>
     <footer class="pt-3 mt-4 text-muted border-top">
