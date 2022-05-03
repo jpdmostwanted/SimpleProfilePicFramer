@@ -4,10 +4,9 @@ Hal avatar. Fork repositori ini dan buat avatar framer Anda sendiri. Lihat demo 
 
 ## How
 
-1. Fork (aka copy this repository).
-2. Replace `frame-01.png` to `frame-04.png` with your own frame designs.
-
-That's all!
+1. Fork (alias salin repositori ini).
+2. Ganti `frame-01.png` sampai `frame-04.png` dengan desain bingkai Anda sendiri.
+Itu saja!
 
 ## Todo
 
